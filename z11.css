@@ -1,0 +1,15 @@
+h2,h4{
+    text-align:center;
+    color:deeppink;
+}
+
+p{
+    background-color: cornflowerblue;
+    color:yellow;
+}
+
+article{
+    font-size:medium;
+    background-color: chartreuse;
+    color:blueviolet;
+}

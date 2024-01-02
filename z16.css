@@ -1,0 +1,93 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    background-color: aqua;
+}
+
+h2{
+    background-color: gold;
+}
+p{
+    background-color: darkmagenta;
+    color:aqua
+}
+
+/* styling different states of a link */
+
+.primary-btn:link{
+    color:rgb(237, 30, 237);
+}
+.primary-btn:hover{
+    color: red;
+    background-color: black;
+}
+
+.primary-btn:visited{
+    color:rgb(157, 20, 255);
+}
+
+.primary-btn:active{
+    color:crimson;
+    background-color: aquamarine;
+    border:2px solid rgb(9, 65, 232)
+}
+
+ol li:first-child{
+    background-color: aquamarine;
+}
+ol li:last-child{
+    background-color: rgb(130, 130, 254);
+}
+
+ol li:nth-child(2n+1){
+    color:rgb(216, 10, 113);
+}
+
+ul li:nth-child(2n){
+    background-color: gray;
+}
+
+ul li:nth-child(2n+1){
+    background-color:cornsilk
+}
+/* pseudo-elements */
+
+h2::first-letter{
+    color: red;
+    font-size: 50px;
+}
+
+p::first-line{
+    background-color: darkorange;
+    color:mediumspringgreen;
+}
+
+
+::selection{
+    color:aqua;
+    background-color: black;
+}
+
+h1::before{
+    content: '--- ';
+    color:rgb(240, 75, 255);
+}
+h1{
+    color:rgb(42, 23, 209);
+}
+h1::after{
+    content: '--- ';
+    color: rgb(240, 75, 255);
+}
+
+.important::after{
+    content: 'important';
+    color:ghostwhite;
+    background-color: red;
+    padding:0.2px;
+    font-size:0.8rem;
+    margin-left:10px;
+    vertical-align:middle;
+}

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+h2{
+    color:yellow;
+    background-color: black;
+    text-align: center;
+    text-shadow: 2px 2px 2px red;
+}
+
+.firstClass {
+    border:5px solid deeppink;
+    padding:40px;/*for all 4 sides*/
+    padding:40px 30px 20px 10px;/*for each side*/
+    padding:40px 30px 10px;/*top , left/right , bottom*/
+    padding:30px 20px;/*top/bottom , left/right*/
+    margin:20px;
+    width: 500px;
+    height:150px;
+}
+
+.secondClass{
+    color:blue;
+    background-color: chartreuse;
+    text-align: justify;
+    text-indent:70px;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
+    word-spacing: 1px;
+    text-shadow: 1px 1px;
+}
+
+a{
+    text-decoration:underline;
+    text-decoration-style: wavy;
+    text-decoration-color:red;
+    text-transform:uppercase;
+}
+
+/* display-block */
+#firstId{
+    border:4px solid darkviolet;
+    width: 400px;
+    height: 150px;
+    margin:45px;
+    padding:30px;
+}
+
+/* display-inline */
+span{
+    border:4px solid orangered;
+    width: 400px;
+    height: 150px;
+    margin:45px;
+    padding:30px;
+    /* display- inline-block */
+    display:inline-block;
+}
+
+/* conversion of inline to block and vice-versa
+display:inline , display:block is used */
+

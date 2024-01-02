@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day19Coding</title>
+    <style>
+        .container{
+            background-color: beige;
+            border:5px solid black;
+            margin:2px;padding:2px;
+            display:flex;
+            flex-direction:row;
+            width:450px;
+        }
+
+        #boxleft{
+            background-color: aquamarine;
+            border:2px solid blue;
+            height:200px;
+            width: 47%;
+            border:2px solid rgb(75, 42, 165);
+            margin: 3px;
+            padding:2px;
+            display:flex;
+            flex-direction: column;
+        }
+
+        #boxright{
+            background-color: yellow;
+            border:2px solid crimson;
+            height:200px;
+            width: 47%;
+            border:2px solid rgb(75, 42, 165);
+            margin: 3px;
+            padding:2px;
+        }
+
+        p{
+            border:2px solid blueviolet;
+        }
+
+        img{
+            width:200px;
+            padding:1px;
+        }
+
+        @media(max-width:680px){
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="boxleft">
+            <p>MAHARISHI MARKANDESHWAR (DEEMED TO BE UNIVERSITY)</p>
+            <p>Accredited by NAAC 'A++' grade</p>
+        </div>
+        <div id="boxright">
+            <img src="mmdu.jpeg" alt="MMDU">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day20Coding</title>
+    <style>
+        div{
+            background-color: yellow;
+            border:5px solid black;
+            height:1300px;
+        }
+
+        img{
+            margin:26px;
+        }
+
+        /* static */
+        /* .image2{
+            top:100px;
+            /* no change because its position is static */
+        /* } */ 
+
+        /* relative */
+        .image2{
+            position:relative;
+            top:100px;
+        }
+
+        /* absolute */
+
+        .container{
+            position:relative;
+        }
+
+        .image3{
+            position:absolute;
+            top:280px; /*overlapping occurs*/
+        }
+
+        /* fixed */
+
+        p{
+            position:fixed;
+            bottom: 70px;
+            right:12px;
+            border:3px solid red;
+            background-color: white;
+        }
+
+        /* sticky */
+
+        .box{
+            background-color: blue;
+        }
+
+        h4{
+            border:3px solid lime;
+            background-color: blueviolet;
+            position:sticky;
+            top:700px;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Studying differnt positions in css -->
+    <div class="container">
+
+        <h1 ALIGN="CENTER">POSITION PROPERTIES IN CSS</h1>
+    <img class="image1" src="nature1.jpeg" alt=""
+    height="300px" width="300px">
+
+    <img class="image2" src="img2.jpeg" alt=""
+    height="300px" width="300px">
+
+    <img class="image3" src="img3.jpeg" alt=""
+    height="300px" width="300px">
+
+
+    <P>Contact us for more information</P>
+    <h4 ALIGN="center">- - - - - - - - - - - - - - - - - - - - - -I AM STICKY !!! - - - - - - - - - - - - - - - - - - - - - -</h4>
+    </div>
+
+    <div class="box"></div>
+</body>
+</html>

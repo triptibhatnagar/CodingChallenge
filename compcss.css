@@ -1,0 +1,21 @@
+h2{
+    background-color:blueviolet;
+    color:aqua;
+    text-align:center;
+}
+p{
+    background-color:lavender;
+    color:deeppink;
+}
+#img1{
+    border: 3px solid aqua;
+    margin-left:50px;
+}
+#img2{
+    border:3px solid aqua;
+}
+#img3{
+    height:171px;
+    width:300px; 
+    border:3px solid aqua;
+}
